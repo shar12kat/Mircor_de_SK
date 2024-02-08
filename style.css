@@ -281,3 +281,39 @@ footer {
     margin-left: 30px;
     margin-right: 30px;
 }
+
+/*Para la página sobre el funcionamiento de la plataforma:*/
+.titulocentrado {
+    text-align: center;
+    font-family: 'Borel';
+    font-size: 36px;
+}
+
+.enlace_dentro_texto {
+    font-weight: bold;
+    color: black;
+}
+
+.chataladerecha {
+    text-align: right;
+}
+
+/*Para la página de retratos e ilustraciones (catálogo de productos):*/
+
+#retratosilustraciones {
+    display: flex;
+}
+
+.imagenesizquierda {
+    text-align: left;
+    margin-right: 60px;
+}
+
+.imagenesderecha {
+    text-align: right;
+    margin-left: 60px;
+}
+
+.catalogos {
+    margin-left: 160px;
+}
