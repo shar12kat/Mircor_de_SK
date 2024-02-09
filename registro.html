@@ -60,40 +60,52 @@
     </div>
 <!--Fin del menú de accesibilidad-->
 
-
-    <h1>¡Regístrese, es gratis!</h1><br>
+<main class="letramasgrande">
+    <section class="margenizquierda">
+    <h1 class="">¡Regístrese, es gratis!</h1><br>
     <p>Por favor, ingrese los datos que se muestran a continuación:</p><br>
 
     <form action="formularioregistro" method="post">
-        <label for="nombres">Nombres</label>
-        <input type="text" id="nombres" name="nombres" placeholder="Escriba aquí" required/><br>
-        <label for="apellidos">Apellidos</label>
-        <input type="text" id="apellidos" name="apellidos" placeholder="Escriba aquí"/><br>
-
+        <label for="nombres" class="rosadonopadding">Nombres</label>
+        <input type="text" id="nombres" name="nombres" placeholder="Escriba aquí" required class="amarillonopadding"/><br><br>
+        <label for="apellidos" class="rosadonopadding">Apellidos</label>
+        <input type="text" id="apellidos" name="apellidos" placeholder="Escriba aquí" required class="amarillonopadding"/><br><br>
         <div>
+            <label for="tipo" class="rosadonopadding">Tipo</label>
             <datalist id="tipo">
                 <option value="CC"></option>
                 <option value="TI"></option>
                 <option value="CE"></option>
             </datalist>
-            <label for="tipo">Tipo
-            <input list="tipo" id="tipo" name="tipo"/></label>
-        </div>
+            <input list="tipo" id="tipo" name="tipo" class="amarillonopaddingelegir" required/>
+            <label for="nodocumento" class="rosadonopadding">No. documento</label>
+            <input type="text" id="nodocumento" name="nodocumento" placeholder="Escriba aquí" class="amarillonopadding" required/>
+        </div><br>
+        <label for="correoelectronico" class="rosadonopadding">Correo electrónico</label>
+        <input type="email" id="correoelectronico" name="correoelectronico" placeholder="Escriba aquí" class="amarillonopadding" required/><br><br>
+        <label for="fechadenacimiento" class="rosadonopadding">Fecha de nacimiento</label>
+        <input type="date" id="fechadenacimiento" name="fechadenacimiento" placeholder="dd/mm/aa" class="amarillonopadding" required/><br><br>
+        <div>
+            <label for="residencia" class="rosadonopadding">Lugar de residencia</label>
+            <datalist id="pais">
+                <option value="Colombia"></option>
+            </datalist>
+            <input list="pais" id="pais" name="pais" placeholder="País" class="amarillonopaddingelegir" required/>
+            <datalist id="ciudad">
+                <option value="Medellín"></option>
+            </datalist>
+            <input list="ciudad" id="ciudad" name="ciudad" placeholder="Municipio" class="amarillonopaddingelegir" required/>
+        </div><br><br>
 
-        
-        <input type="text" id="tipo" name="tipo"/><br>
-
-
-        <label for="nodocumento">No. documento</label>
-        <input type="text" id="nodocumento" name="nodocumento" placeholder="Escriba aquí"/><br>
-        <label for="correoelectronico">Correo electrónico</label>
-        <input type="email" id="correoelectronico" name="correoelectronico" placeholder="Escriba aquí"/><br>
-        <label for="fechadenacimiento">Fecha de nacimiento</label>
-        <input type="datetime" id="fechadenacimiento" name="fechadenacimiento" placeholder="dd/mm/aa"/><br>
-        <label for="residencia">Lugar de residencia</label>
-        <input type="text" id="residencia" name="residencia" placeholder="País y ciudad"/><br>
-        <button type="submit"><img src="Imágenes/Flecha.png" width="70"/></button><br>
+        <button type="submit" class="submitregistro"><img src="Imágenes/Flecha.png" width="120"/></button><br>
     </form>
+    </section>
+
+    <article class="chataladerecha">
+        <img src="Imágenes/sketch Chat.png" width="150" alt="Figura del chat de comunicación: corresponde al personaje de la plataforma, que se llama Galletona, más un globo de diálogo."/>
+    </article>
+</main><br><br>
+
 
     <footer>
 

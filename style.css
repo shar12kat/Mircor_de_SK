@@ -317,3 +317,57 @@ footer {
 .catalogos {
     margin-left: 160px;
 }
+
+.videos {
+    margin-left: 140px;
+}
+
+#tituloregistro {
+    font-family: 'Borel';
+    font-size: 36px;
+}
+
+.margenizquierda {
+    margin-left: 30px;
+}
+
+.letramasgrande {
+    font-size: 28px;
+}
+
+.rosadonopadding {
+    background-color:#ffc6d4;
+    padding: 6px;
+    border-radius: 14px;
+}
+
+.amarillonopadding {
+    background-color: #ffff7b;
+    padding: 6px;
+    border-radius: 14px;
+    font-family: 'Medula One';
+    font-size: 28px;
+    width: 600px;
+}
+
+.amarillonopaddingelegir {
+    background-color: #ffff7b;
+    padding: 6px;
+    border-radius: 14px;
+    font-family: 'Medula One';
+    font-size: 28px;
+    width: 200px;
+}
+
+.submitregistro {
+    border-style: none;
+    margin-left: 250px;
+}
+
+.alcentro {
+    text-align: center;
+}
+
+#submitingreso {
+    border-style: none;
+}
