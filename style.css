@@ -371,3 +371,19 @@ footer {
 #submitingreso {
     border-style: none;
 }
+
+.flex-box {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+#politicas {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.chatGallepoliticas {
+    margin-top: 20%;
+}
