@@ -327,6 +327,16 @@ footer {
     font-size: 36px;
 }
 
+.container-funcionamiento {
+    display: flex;
+}
+
+#container-metodopago {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 .margenizquierda {
     margin-left: 30px;
 }
