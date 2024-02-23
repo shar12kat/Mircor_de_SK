@@ -367,6 +367,10 @@ footer {
     font-family: 'Medula One';
     font-size: 28px;
     width: 200px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
 }
 
 .submitregistro {
@@ -397,3 +401,14 @@ footer {
 .chatGallepoliticas {
     margin-top: 20%;
 }
+
+/*Para el chat de comunicación*/
+.gallesinpunto {
+    list-style: none;
+}
+
+.galle-bloque {
+    list-style:none;
+    width:max-content;
+}
+

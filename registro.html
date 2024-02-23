@@ -42,7 +42,7 @@
                 <li class="nav-item"><a href="intercambio.html">¿Desea hacer un intercambio?</a></li>
                 <li class="nav-item"><a href="venda_productos.html">Venda sus productos</a></li>
                 <li class="nav-item"><a href="diy.html">DIY</a></li>
-                <li class="nav-item"><a href="registro.html">¡Regístrese, es gratis!</a></li>
+                <li class="nav-item"><a href="registro.php">¡Regístrese, es gratis!</a></li>
                 <li class="nav-item"><a href="ingreso.html">Ingresar</a></li>
                 <li class="nav-item"><a href="ingreso.html"><img src="Imágenes/Logo ingresar.png" width="30" class="borde-imagen"/></a></li>
             </ul>
@@ -65,7 +65,7 @@
     <h1 class="">¡Regístrese, es gratis!</h1><br>
     <p>Por favor, ingrese los datos que se muestran a continuación:</p><br>
 
-    <form action="formularioregistro" method="post">
+    <form action="php/registro_usuario_be.php" method="POST">
         <label for="nombres" class="rosadonopadding">Nombres</label>
         <input type="text" id="nombres" name="nombres" placeholder="Escriba aquí" required class="amarillonopadding"/><br><br>
         <label for="apellidos" class="rosadonopadding">Apellidos</label>
@@ -95,7 +95,9 @@
                 <option value="Medellín"></option>
             </datalist>
             <input list="ciudad" id="ciudad" name="ciudad" placeholder="Municipio" class="amarillonopaddingelegir" required/>
-        </div><br><br>
+        </div><br>
+        <label for="contrasena" class="rosadonopadding">Contraseña</label>
+        <input type="password" id="contrasena" name="contrasena" placeholder="Escriba aquí su contraseña" class="amarillonopadding" required/><br><br>
 
         <button type="submit" class="submitregistro"><img src="Imágenes/Flecha.png" width="120"/></button><br>
     </form>
